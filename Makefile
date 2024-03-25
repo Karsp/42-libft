@@ -27,7 +27,8 @@ SRC = ft_isprint.c ft_memmove.c ft_strrchr.c \
 	  ft_itoa.c ft_strmapi.c ft_striteri.c \
 	  ft_putchar_fd.c ft_putstr_fd.c ft_putendl_fd.c \
 	  ft_putnbr_fd.c ft_absolute_value.c ft_strposchr.c \
-	  ft_print_strarray.c
+	  ft_print_strarray.c ft_sarrlen.c ft_sarrcpy.c \
+	  ft_sarradd.c
 
 BSRC = ft_lstnew_bonus.c ft_lstadd_front_bonus.c \
 	   ft_lstsize_bonus.c ft_lstlast_bonus.c \
@@ -35,7 +36,7 @@ BSRC = ft_lstnew_bonus.c ft_lstadd_front_bonus.c \
 	   ft_lstclear_bonus.c ft_lstiter_bonus.c \
 	   ft_lstmap_bonus.c
 
-GNL = ./gnl/get_next_line.c ./gnl/get_next_line_utils.c
+GNL = ./gnl/get_next_line.c
 
 PRINTF	=	./ft_printf/ft_printf.c ./ft_printf/ft_printf_utils.c
 

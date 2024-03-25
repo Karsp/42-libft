@@ -76,4 +76,8 @@ void	my_tolower(unsigned int c, char *s);
 void	my_toupper(unsigned int c, char *s);
 void	ft_freematrix(char ***matrix);
 void	ft_print_strarray(char **array);
+size_t	ft_sarrlen(char **array);
+char	**ft_sarrcpy(char **arr);
+char	**ft_sarradd(char **array, char *str);
+
 #endif
