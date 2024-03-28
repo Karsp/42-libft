@@ -79,5 +79,6 @@ void	ft_print_strarray(char **array);
 size_t	ft_sarrlen(char **array);
 char	**ft_sarrcpy(char **arr);
 char	**ft_sarradd(char **array, char *str);
+char	**ft_clear_sarradd(char **array, char *str);
 
 #endif

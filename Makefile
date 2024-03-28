@@ -28,7 +28,7 @@ SRC = ft_isprint.c ft_memmove.c ft_strrchr.c \
 	  ft_putchar_fd.c ft_putstr_fd.c ft_putendl_fd.c \
 	  ft_putnbr_fd.c ft_absolute_value.c ft_strposchr.c \
 	  ft_print_strarray.c ft_sarrlen.c ft_sarrcpy.c \
-	  ft_sarradd.c
+	  ft_sarradd.c ft_clear_sarradd.c
 
 BSRC = ft_lstnew_bonus.c ft_lstadd_front_bonus.c \
 	   ft_lstsize_bonus.c ft_lstlast_bonus.c \
