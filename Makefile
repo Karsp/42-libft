@@ -6,7 +6,7 @@
 #    By: daviles- <daviles-@student.42madrid.com    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/03/22 17:55:22 by daviles-          #+#    #+#              #
-#    Updated: 2024/03/03 01:04:38 by daviles-         ###   ########.fr        #
+#    Updated: 2024/03/29 14:21:10 by daviles-         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -28,7 +28,7 @@ SRC = ft_isprint.c ft_memmove.c ft_strrchr.c \
 	  ft_putchar_fd.c ft_putstr_fd.c ft_putendl_fd.c \
 	  ft_putnbr_fd.c ft_absolute_value.c ft_strposchr.c \
 	  ft_print_strarray.c ft_sarrlen.c ft_sarrcpy.c \
-	  ft_sarradd.c ft_clear_sarradd.c
+	  ft_sarradd.c ft_clear_sarradd.c ft_check_emptyorspace.c
 
 BSRC = ft_lstnew_bonus.c ft_lstadd_front_bonus.c \
 	   ft_lstsize_bonus.c ft_lstlast_bonus.c \

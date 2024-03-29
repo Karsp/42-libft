@@ -6,7 +6,7 @@
 /*   By: daviles- <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/13 17:12:49 by daviles-          #+#    #+#             */
-/*   Updated: 2024/03/03 00:24:12 by daviles-         ###   ########.fr       */
+/*   Updated: 2024/03/29 14:19:31 by daviles-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #ifndef LIBFT_H
@@ -80,5 +80,6 @@ size_t	ft_sarrlen(char **array);
 char	**ft_sarrcpy(char **arr);
 char	**ft_sarradd(char **array, char *str);
 char	**ft_clear_sarradd(char **array, char *str);
+int		check_emptyorspace(char *str);
 
 #endif
